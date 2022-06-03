@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Restaurants</title>
+</head>
+
+<body>
+
+    <p><button>Share</button></p>
+    <p class="result"></p>
+  
+    <script>
+      let shareData = {
+        url: 'https://therajpatel.github.io/drivia/',
+      }
+  
+      const btn = document.querySelector('button');
+      const resultPara = document.querySelector('.result');
+  
+      btn.addEventListener('click', () => {
+        navigator.share(shareData)
+          .then(() =>
+            resultPara.textContent = ''
+          )
+          .catch((e) =>
+            resultPara.textContent = ''
+          )
+      });
+    </script>
+
+  </body>
+
+
+
+  
+
+
+  
+<body>
+    
+    <style>
+        body {
+          background-image: url('blackBack2.jpg');
+        }
+        </style>
+    <h1 style="font-family:'Times New Roman'"> RESTAURANTS</h1>
+
+
+
+    
+    <div class="container">
+        <input type="text" placeholder="Search Keywords... (i.e., NY, Bar, or Korean)" class="filter-input">
+        <div class="output"></div>
+    </div>
+
+
+    
+        <h2>Recommendations</h2>
+        <center>
+        <div id="contact-form">
+                <form action="https://formspree.io/f/xwkyydyj" method="POST">
+                    <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required  size="30">
+                <input name="message" placeholder="Type Restaurant Name" required size="30"></input>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        </center>
+    
+    
+
+    <script src="main.js"></script>
+
+
+
+
+
+    <body>
+    
+    
+    </body>
+
+
+
+
+    
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
