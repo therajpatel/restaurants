@@ -37,6 +37,15 @@ h2{
     color: white;
 }
 
+h3{
+    text-align: center;
+    margin: 50px 0;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+    /* title */
+    color: white;
+}
+
 .filter-input{
     width: 100%;
     margin-bottom: 2rem;
